@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx nightwatch test/positiveLoginFlow.js --env chrome"
+    "test": "npx nightwatch test/positiveLoginFlow.js --env browserstack.chrome"
   },
   "keywords": [],
   "author": "",
