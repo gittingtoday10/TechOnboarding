@@ -11,7 +11,7 @@ describe('Browserstack Live Login', function() {
         .assert.visible('input[type=submit]')
         .setValue('input[id=user_password', [ 'dummyuser2', browser.Keys.ENTER ])
         .pause(5000)
-        .assert.titleContains('Sign in')
+        .assert.titleContains('Login')
 
     after(browser => browser.end());
   });
