@@ -202,6 +202,9 @@ module.exports = {
         browserName: 'chrome',
         'goog:chromeOptions': {
           w3c: true
+        },
+        'bstack:options': {
+          buildName:'sairamnightwatch-build'
         }
       }
     },
